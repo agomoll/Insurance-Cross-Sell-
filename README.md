@@ -16,3 +16,20 @@ The data was exported from Alteryx and read into a Jupyter Notebook for some ana
 
 
 The data was also uploaded to Tableau for visual analysis.A calculated field was created to separate the interested individuals from not interested in order to compare with other variables to look for trends.
+
+
+<img src="Resources/screenshots/calculated_field.png"  width=75%>
+
+
+
+Looking at the age distribution, it appears that the sample is skewed towards more younger aged individuals.  
+<img src="Resources/screenshots/age_distribution.png"  width=75%>
+
+
+However, it looks like more middle aged people are actually interested in health insurance. 
+<img src="Resources/screenshots/age_by_interest.png"  width=75%>
+                                                    
+
+
+Our location distribution appears to be spread pretty evenly accross the United States and its Territories. 
+<img src="Resources/screenshots/location_distribution.png"  width=75%>
