@@ -13,3 +13,6 @@ The data was exported from Alteryx and read into a Jupyter Notebook for some ana
 
 
 <img src="Resources/screenshots/interested_health_ins_count.png" width=75%>
+
+
+The data was also uploaded to Tableau for visual analysis.A calculated field was created to separate the interested individuals from not interested in order to compare with other variables to look for trends.
