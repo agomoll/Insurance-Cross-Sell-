@@ -17,10 +17,10 @@ The vehicle insurance data from Kaggle which was transfered over from Analytics 
 
 The data was exported from Alteryx and read into a Jupyter Notebook for some analysis with Python. Of the 65,535 records in this sample, 8,046 (12.2%) reported that they were in fact interested in purchasing health insurance. 
 
-<img src="Resources/screenshots/initial_dataframe.png" width=75%>
+<img src="Resources/screenshots/initial_dataframe.png" width=80%>
 
 
-<img src="Resources/screenshots/interested_health_ins_count.png" width=75%>
+<img src="Resources/screenshots/interested_health_ins_count.png" width=80%>
 
 
 The data was also uploaded to Tableau for visual analysis.A calculated field was created to separate the interested individuals from not interested in order to compare with other variables to look for trends.
@@ -34,11 +34,11 @@ Looking at the age distribution, it appears that the sample is skewed towards mo
 <img src="Resources/screenshots/age_distribution.png"  width=75%>
 
 
-However, it looks like more middle aged people are actually interested in health insurance. 
+However, it looks like more middle aged people are actually interested in health insurance than older or younger people. 
 <img src="Resources/screenshots/age_by_interest.png"  width=75%>
                                                     
 
-It also appears that people with newer vehicles are more interested in health insurance. 
+It also appears that people with newer vehicles are more interested in health insurance than older vehicles (>2 years). 
 <img src="Resources/screenshots/car_age_by_interest.png"  width=75%>
 
 
