@@ -15,7 +15,7 @@ The vehicle insurance data was sourced from Kaggle which was transfered over fro
 <img src="Resources/screenshots/alteryx_flow.png">
 
 
-The data was exported from Alteryx and read into a Jupyter Notebook for some analysis with Python. Of the 65,535 records in this sample, 8,046 (12.2%) reported that they were in fact interested in purchasing health insurance. 
+The data was exported from Alteryx and read into a Jupyter Notebook for some analysis with Python. Of the 65,535 people surveyed in this sample, 8,046 (12.2%) reported that they were in fact interested in purchasing health insurance. 
 
 <img src="Resources/screenshots/initial_dataframe.png" width=80%>
 
@@ -23,14 +23,14 @@ The data was exported from Alteryx and read into a Jupyter Notebook for some ana
 <img src="Resources/screenshots/interested_health_ins_count.png" width=80%>
 
 
-The data was also uploaded to Tableau for visual analysis.A calculated field was created to separate the interested individuals from not interested in order to compare with other variables to look for trends.
+The data was also uploaded to Tableau for visual analysis. A calculated field was created to separate the interested individuals from not interested in order to compare with other variables for trend analysis.
 
 
 <img src="Resources/screenshots/calculated_field.png"  width=75%>
 
 
 
-Looking at the age distribution, it appears that the sample is skewed towards more younger aged individuals.  
+Looking at the age distribution, it appears that the sample is skewed towards more younger aged individuals than older or middle aged people.  
 <img src="Resources/screenshots/age_distribution.png"  width=75%>
 
 
@@ -38,7 +38,7 @@ However, it looks like more middle aged people are actually interested in health
 <img src="Resources/screenshots/age_by_interest.png"  width=75%>
                                                     
 
-It also appears that people with newer vehicles are more interested in health insurance than older vehicles (>2 years). 
+It also appears that people with newer vehicles ( <2 years old) are more interested in health insurance than older vehicles ( >2 years old). 
 <img src="Resources/screenshots/car_age_by_interest.png"  width=75%>
 
 
